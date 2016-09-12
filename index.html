@@ -2,11 +2,127 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+		<link rel='stylesheet' href='css/font-awesome.min.css'>
+		<style>
+			* { box-sizing: border-box; }
+
+			body {
+				padding: 0px;
+				margin: 0px;
+				text-align: center;
+				font-family: Hack;
+				background-color: #272822;
+				color: #E0E0E0;
+			}
+
+			.content {
+				padding-top: 20px;
+				padding-bottom: 40px;
+				/*max-width: 320px;*/
+				display: inline-block;
+				position: relative;
+			}
+
+			.content > .rule {
+				position: absolute;
+				margin: 0px;
+				top: 0px;
+				bottom: 0px;
+				width: 1px;
+				left: -100px;
+				border-left: 1px dashed #363731;
+			}
+
+			.content > div { 
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+			.profile {
+				width: 128px;
+				height: 128px;
+
+				border-radius: 64px;
+				border: 1px solid #616161;
+			}
+
+			.content > .separator {
+				font-size: 1.5em;
+				margin-top: 25px;
+				margin-bottom: 25px;
+			}
+
+			.btn {
+				line-height: 20px;
+				display: inline-block;
+				color: #F92670;
+				padding: 10px;
+				background-color: #F92670;
+				color: #FFF;
+				text-decoration: none;
+			}
+			.btn:hover {
+				text-decoration: none;
+			}
+			.emphasize {
+				color: #A1E22E;
+			}
+
+			ul {
+				list-style-type: none;
+				text-align: left;
+			}
+			ul li {
+				margin-bottom: 3px;
+			}
+		</style>
+		<title>Jérémie Girault - Software Engineer</title>
 	</head>
 	<body>
-		<div>
+		<div class="content">
+			<div class="rule"></div>
+			<div>
+				<img class="profile" src="img/profile.jpg" />
+			</div>
 			<div>Jérémie Girault</div>
-			<div>Software Engineer 😀</div>
+			<div>Software Engineer</div>
+			<div>I craft delightful software with passion</div>
+			<div class="separator">🚀</div>
+			<div>
+				<a class="btn" href="mailto:jeremie.girault@gmail.com?subject=contact from website"><i class="fa fa-envelope fa-fw"></i> Contact Me Now !</a>
+			</div>
+			<div class="separator">☕️</div>
+			<div>
+				<a class="btn" href="https://twitter.com/kamidude"><i class="fa fa-twitter fa-fw"></i></a>
+				<a class="btn" href="https://github.com/jeremiegirault/"><i class="fa fa-github fa-fw"></i></a>
+				<a class="btn" href="http://stackoverflow.com/users/1659718/kamidude"><i class="fa fa-stack-overflow fa-fw"></i></a>
+				<a class="btn" href="https://www.linkedin.com/in/jeremiegirault"><i class="fa fa-linkedin fa-fw"></i></a>
+			</div>
+			<div>
+				<ul>
+					<li>
+						<span class="emphasize">@snips</span> : mobile lead - ai product
+					</li>
+					<li>
+						<span class="emphasize">@h42</span> : computer vision R&amp;D - biotech product
+					</li>
+					<li>
+						<span class="emphasize">@ad4screen</span> : mobile lead - push sdk
+					</li>
+					<li>
+						<span class="emphasize">@capgemini</span> : rapid prototyping - innovation &amp; ux
+					</li>
+					<li>
+						<span class="emphasize">@speaker</span> : frenchkit, cocoaheads
+					</li>
+				</ul>
+			</div>
+			<div class="separator">✌️</div>
+			<div>
+				<a class="btn" href="mailto:jeremie.girault@gmail.com?subject=contact from website"><i class="fa fa-envelope fa-fw"></i> Contact Me Now !</a>
+			</div>
 		</div>
 	</body>
 </html>
